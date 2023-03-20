@@ -12,7 +12,7 @@ def rename_files():
             file_name_parts = file_path.name.split(' ')
             if len(file_name_parts) > 1:
                 # Replace the original file name with only the first part before space and default prefix
-                new_file_name = f"{file_name_parts[0]}"
+                new_file_name = f"{file_name_parts[0]}.pdf"
                 file_path.rename(file_path.with_name(new_file_name))
         else:
             # If it's a directory, call the same function recursively
