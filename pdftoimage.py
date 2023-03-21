@@ -2,7 +2,7 @@ from pdf2image import convert_from_path
 import os
 
 poppler_path = r"/opt/homebrew/Cellar/poppler/23.03.0/bin"
-pdf_folder = r"/Users/ty/Downloads/test"
+pdf_folder = r"/Users/ty/Downloads/Fotos"
 
 for pdf_file in os.listdir(pdf_folder):
     if pdf_file.endswith(".pdf"):
