@@ -13,6 +13,6 @@ for pdf_file in os.listdir(pdf_folder):
         c = 1
 
         for page in pages:
-            img_name = f"{pdf_file[:-4]}-img-{c}.jpg"
+            img_name = f"{pdf_file[:-4]}-{c}.jpg"
             page.save(os.path.join(saving_folder, img_name), "JPEG")
             c += 1
