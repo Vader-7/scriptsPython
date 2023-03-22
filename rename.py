@@ -1,8 +1,4 @@
 import pathlib
-import os
-
-print(os.getcwd())
-
 
 def rename_files():
     folder_path = pathlib.Path('/Users/ty/Downloads/Fotos')
