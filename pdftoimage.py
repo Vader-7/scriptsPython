@@ -2,8 +2,8 @@ from pdf2image import convert_from_path
 from PIL import Image
 import os
 
-poppler_path = r"/opt/homebrew/Cellar/poppler/23.03.0/bin"
-pdf_folder = r"/Users/ty/Downloads/Fotos"
+poppler_path = r"/opt/homebrew/Cellar/poppler/23.05.0/bin"
+pdf_folder = r"/Users/ty/Downloads/19-05-2023 2"
 savingFolder = r"/Users/ty/Downloads/FotosIMG"
 savingFolderRescale = r"/Users/ty/Downloads/FotosIMGRescale"
 

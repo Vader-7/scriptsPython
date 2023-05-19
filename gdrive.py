@@ -1,4 +1,5 @@
-import gdown, sys
+import gdown
+import sys
 
 url = sys.argv[1]
 
